@@ -14,6 +14,7 @@ class Application
     else
       resp.write "You Lose"
     end
+    
     resp = Rack::Response.new
     resp.write "Hello, World"
     resp.finish
